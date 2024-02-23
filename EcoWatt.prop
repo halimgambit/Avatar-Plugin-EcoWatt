@@ -1,0 +1,18 @@
+{
+	"modules": { 
+		"EcoWatt": {
+			"version": "1.0",
+			"name": "ecowatt",
+			"tts": {
+				"Salon": "J'ai allumé la lumière",
+				"Cuisine": "J'ai allumé les spots"
+			},
+			"clients": {
+				"Salon": 60,
+				"Cuisine": 50
+			},
+			"rules": ["ecowatt electricity","electricity ecowatt","electricity","ecowatt"]
+		}
+	}
+}
+			
